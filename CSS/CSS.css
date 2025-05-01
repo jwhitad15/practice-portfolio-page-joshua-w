@@ -17,6 +17,8 @@ body {
 
 img {
     width: 100%;
+    height: auto;
+    display: block;
 }
 
 h1 {
@@ -25,4 +27,17 @@ h1 {
 
 .flexbox-container {
     background-color: lightblue;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    align-content: flex-end;
+}
+
+.Hey-there {
+    width: 200px;
+    background-color: bisque;
+    color: #000;
+    min-height: 300px;
 }
