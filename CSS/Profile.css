@@ -31,3 +31,7 @@
     color: #414535;
     line-height:0.5
   }
+
+  .submit {
+    text-decoration: none;
+  }
