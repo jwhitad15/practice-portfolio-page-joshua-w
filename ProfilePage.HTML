@@ -1,61 +1,40 @@
 <!doctype html>
-<title>All About Me</title>
-<style>
-  * {
-   box-sizing: border-box; 
-  }
-  body {
-    margin: 0;
-  }
-  #main {
-    display: flex;
-    min-height: calc(100vh - 40vh);
-  }
-  #main > article {
-    flex: 1;
-  }
-  #main > nav, 
-  #main > aside {
-    flex: 0 0 20vw;
-    background: beige;
-  }
-  #main > nav {
-    order: -1;
-  }
-  header, footer, article, nav, aside {
-    padding: 1em;
-  }
-  header, footer {
-    background: yellowgreen;
-    height: 20vh;
-  }
-</style>
+<head>
+  <title>All About Me</title>
+  <link rel="stylesheet" href="/CSS/Profile.css">
+</head>
+
+
 <body>
-  <header>All About Me <br />
-    a small introduction into the life of Joshua</header>
+  <header><h1>All About Me</h1>
+    <h3 style="line-height:0.02">a small introduction into the life of Joshua</h3></header>
   <div id="main">
-    <article><h1>My Life</h1> <br />
+
+    <article><h1 style=text-align:center>My Life</h1> <br />
         <br />
     My life is great! I wake up, go for a walk, eat something for breakfast, and sit down at my computer to code! <br />
     Here are three things I learned from my coding journey so far:
     <ul>
-        <li>Be Patient: Great things take time!</li>
-        <li>Practice: Practice makes permanent!</li>
-        <li>Take Breaks: Don't forget to enjoy some sunshine!</li> 
+        <li><b>Be Patient:</b> Great things take time!</li>
+        <li><b>Practice:</b> Practice makes permanent!</li>
+        <li><b>Take Breaks:</b> Don't forget to enjoy some sunshine!</li> 
     </ul>
     <hr> <br />
-    <h1>My Former Life <br /></h1>
+    <h1 style=text-align:center>My Former Life <br /></h1>
     In my past, I was a basketball player. To ensure optimal performance, I made it my business to:
    <ol>
     <li>Arrive Early</li>
     <li>Warmup</li>
     <li>Stretch</li>
     <li>Practice My Skills</li>
-</ol>
+    </ol>
     </article>
-    <nav>In Living Color<br /></nav>
+
+    <nav style=text-align:center> <h3>In Living Color!</h3><br /> 
+      <hr>
+      <img style=margin:auto src="Josh White.JPG" width="255" height="335"></nav>
     <hr>
-    <aside>Music <br />
+    <aside style=text-align:center>Music <br />
     <br />
     Like music? Press play on the audio device below to hear an original track! <br ?>
     <br />
@@ -69,9 +48,8 @@
     <button type="submit">Check Me Out!</button><hr ><br />
     </aside>
   </div>
-  <footer>My Work <br />
-    "You can find more code on my GitHub! Just click the link!" <br />
-    <a>https://github.com/jwhitad15?tab=repositories</a>
+  <footer class="footer"><h3>My Work</h3>
+    Love code?! Just click the <a href="https://github.com/jwhitad15?tab=repositories">link</a> to see more <b>amazing</b> code!
     <hr>
     <p>
         <small>&copy; 2025 Joshua Did This</small>
